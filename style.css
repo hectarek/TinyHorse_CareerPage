@@ -75,6 +75,7 @@ li {
 #navbar li a:hover {
     text-decoration: none;
     filter: grayscale(.5);
+    color: lightgray;
     border-bottom: 4px solid #e35443;
 }
 
