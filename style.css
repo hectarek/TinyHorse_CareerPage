@@ -4,6 +4,10 @@ html {
     background-color: #212326;
 }
 
+body {
+    width: 100%;
+}
+
 .backgroundBlack {
     background-color: #212326;
 }
@@ -63,6 +67,17 @@ li {
     border-bottom-style: solid;
     z-index: 1;
 }
+
+#navbar li a{
+    color: white;
+}
+
+#navbar li a:hover {
+    text-decoration: none;
+    filter: grayscale(.5);
+    border-bottom: 4px solid #e35443;
+}
+
 
 /* Splace Pic Styles */
 
@@ -131,6 +146,17 @@ li {
     width: 500px;
     border-top: 10px solid #e35443;
     background-color: #f4eae9;
+}
+
+.cards li {
+    text-transform: none;
+}
+
+.more {
+    color: #e35443;
+    font-size: 20px;
+    font-family: big-caslon-fb, serif;
+    ;
 }
 
 
